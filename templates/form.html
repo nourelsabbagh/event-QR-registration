@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog's Day Out Registration</title>
+</head>
+<body>
+    <h1>Register for the Event</h1>
+    <form method="POST" action="/registrations">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mobile">Mobile Number:</label><br>
+        <input type="number" id="mobile" name="mobile" required><br><br>
+
+        <label for="persons">Number of Persons:</label><br>
+        <input type="number" id="persons" name="persons" required><br><br>
+
+        <label for="dogs">Number of Dogs:</label><br>
+        <input type="number" id="dogs" name="dogs" required><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
